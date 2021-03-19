@@ -56,16 +56,49 @@ header {
 
 /* home */ 
 
+.adjetivos {
+    display: flex;
+    flex-direction: row;
+    max-width: 960px;
+    margin: 60px auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adjetivos h2 {
+    display: flex;
+    font-size: 3em;
+    color: ;
+    background: rgb(121, 85, 72, .42);
+    padding: 30px 20px;
+}
+
+.adj1 {
+    flex: 1 1 175px;
+    margin: 10px;
+    border-top: 8px solid ;
+}
+
+.adj2 {
+    flex: 1 1 175px;
+    margin: 10px;
+    border-top: 8px solid ;
+}
+
+.adj3 {
+    flex: 1 1 175px;
+    margin: 10px;
+    border-top: 8px solid ;
+}
+
 .frase {
     height: 200px;
-    width: 800px;
+    width: 50%;
     font-size: 30px;
    display: flex;
    flex-wrap: wrap;
    align-items: center;
-   
    margin:auto;
-   padding: 0px;
 }
 
 
