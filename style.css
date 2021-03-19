@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Body */
+
+body {
+    font-family: "Ubuntu", Helvetica, sans-serif;
+    background-color: #cda26aa8;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Header */
+
+header {
+    background-color: #cda26a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+}
+
+.menu a {
+    color: black;
+    padding: 15px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* home */ 
+
+.frase {
+    height: 200px;
+    width: 800px;
+    font-size: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
+   margin:auto;
+   padding: 0px;
+}
+
+
+/* Sobre nos */
+
+.sobrenos {
+    display: flex;
+}
+
+.fotosobrenos {
+    max-width: 400px;
+    width: 100%;
+    min-height: auto;    
+    margin: auto;
+    
+}
+
+.fotosobrenos img {
+    border-radius: 500px;
+    margin-top: 50px;
+}
+
+.descricao {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    align-content: center;
+    margin-right: 100px;
+}
+
+
+
