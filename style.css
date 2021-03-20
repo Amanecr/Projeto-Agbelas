@@ -68,7 +68,7 @@ header {
 .adjetivos h2 {
     display: flex;
     font-size: 3em;
-    color: ;
+    color: #e8e3d5;
     background: rgb(121, 85, 72, .42);
     padding: 30px 20px;
 }
@@ -76,7 +76,7 @@ header {
 .adj1 {
     flex: 1 1 175px;
     margin: 10px;
-    border-top: 8px solid ;
+    border-top: 8px solid #21bdd1;
 }
 
 .adj2 {
